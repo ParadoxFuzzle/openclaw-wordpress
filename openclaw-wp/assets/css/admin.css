@@ -1,0 +1,99 @@
+/* OpenClaw for WordPress — Admin Styles */
+
+.openclaw-wrap {
+    max-width: 1200px;
+}
+
+.openclaw-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.openclaw-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.openclaw-card h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #646970;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.openclaw-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.openclaw-big {
+    font-size: 24px !important;
+    font-weight: 600;
+}
+
+.openclaw-status-ok {
+    color: #00a32a !important;
+}
+
+.openclaw-status-warn {
+    color: #d63638 !important;
+}
+
+.openclaw-card-full {
+    grid-column: 1 / -1;
+}
+
+.openclaw-card-full ol {
+    margin: 10px 0 0 20px;
+}
+
+.openclaw-card-full li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* API Docs table */
+.openclaw-api-docs {
+    margin-top: 20px;
+}
+
+.openclaw-api-docs h2 {
+    margin-bottom: 10px;
+}
+
+.openclaw-api-docs h3 {
+    margin: 20px 0 10px;
+}
+
+.openclaw-api-docs table {
+    margin-top: 10px;
+}
+
+.openclaw-api-docs code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.openclaw-api-docs td {
+    vertical-align: middle;
+}
+
+/* Tab content spacing */
+.openclaw-wrap .form-table th {
+    width: 200px;
+}
+
+.openclaw-wrap .form-table td p.description {
+    color: #646970;
+    font-style: italic;
+    margin-top: 4px;
+}
